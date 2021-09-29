@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "../compoenet/Header";
 import Footer from "../compoenet/Footer";
-import '../navbar/Navbar'
+import '../navbar'
 
-const Atayal = () => {
+const Seediq = () => {
     return (
         <div>
             <Header/>
-                <div>泰雅</div>   
+                <div>賽德克族    </div>   
             <Footer/>           
         </div>
       
     );
 }
 
-export default Atayal
+export default Seediq

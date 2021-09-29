@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "../compoenet/Header";
 import Footer from "../compoenet/Footer";
-import '../navbar/Navbar'
+import '../navbar'
 
-const Atayal = () => {
+const Thao = () => {
     return (
         <div>
             <Header/>
-                <div>泰雅</div>   
+                <div>邵族</div>   
             <Footer/>           
         </div>
       
     );
 }
 
-export default Atayal
+export default Thao

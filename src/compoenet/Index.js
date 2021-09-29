@@ -10,7 +10,7 @@ const Index = ()=>{
                 <div className="columns ">
                     <div className="column ">
                         <figure class="image">
-                            <a href="http://www.twedance.org/"><img src={require('../image/map.jpg').default }alt="分布地圖" ></img></a>
+                            <a href="http://www.twedance.org/"><img src={require('../image/index/map.jpg').default }alt="分布地圖" ></img></a>
                         </figure>
                     </div>
                     <div className="column ">
@@ -27,7 +27,7 @@ const Index = ()=>{
                     </div>
                 </div>
             </div>
-            <div className="hero has-text-centered has-background-white-bis ">
+            <div className="section has-text-centered has-background-white-bis ">
                 <div className="title pt-3">各族圖騰</div>
                 <div className="columns is-mobile ">
                     <div className="column ">
@@ -134,13 +134,13 @@ const Index = ()=>{
                     </div>
                 </div> 
             </div>                   
-            <div className="section is-medium">
+            <div className="section ">
                 <div className="tile is-ancestor">
                     <div className="tile">
                         <div className="tile is-8 is-parent">
                             <div className="tile is-child box ">
                                 <figure class="image is-2by1 text-hover">
-                                    <img src={require("../image/arrow.jpg").default} alt="弓箭"/>
+                                    <img src={require("../image/index/arrow.jpg").default} alt="弓箭"/>
                                     <div className="overlay">
                                         <div className="hover-text">狩獵</div>
                                     </div>
@@ -150,7 +150,7 @@ const Index = ()=>{
                         <div className="tile is-vertical is-parent">
                             <div className="tile is-child box">
                                 <figure class="image is-1by1">
-                                    <img src={require("../image/arms.jpg").default} alt="武器"/>
+                                    <img src={require("../image/index/arms.jpg").default} alt="武器"/>
                                     <div className="overlay">
                                         <div className="hover-text">獵刀</div>
                                     </div>
@@ -164,7 +164,7 @@ const Index = ()=>{
                         <div className="tile is-4 is-parent ">
                             <div className="tile is-child box">
                                 <figure class="image ">
-                                    <img src={require("../image/house.jpg").default} alt="傳統建築"/>
+                                    <img src={require("../image/index/house.jpg").default} alt="傳統建築"/>
                                     <div className="overlay">
                                         <div className="hover-text">建築-茅草屋</div>
                                     </div>               
@@ -181,7 +181,7 @@ const Index = ()=>{
                         <div className="tile  is-parent is-4">
                             <div className="tile is-child box">
                                 <figure class="image ">
-                                    <img src={require("../image/home.jpg").default} alt="傳統建築"/>
+                                    <img src={require("../image/index/home.jpg").default} alt="傳統建築"/>
                                     <div className="overlay">
                                         <div className="hover-text">建築-石板屋</div>
                                     </div>               
@@ -195,7 +195,7 @@ const Index = ()=>{
                         <div className="tile is-4 is-parent is-vertical">
                             <div className="tile is-child box">
                                 <figure class="image is-1by1">
-                                    <img src={require("../image/Texture.jpg").default} alt="紋面"/> 
+                                    <img src={require("../image/index/Texture.jpg").default} alt="紋面"/> 
                                     <div className="overlay">
                                         <div className="hover-text">紋面</div>
                                      </div>               
@@ -205,7 +205,7 @@ const Index = ()=>{
                         <div className="tile  is-parent">
                             <div className="tile is-child box">
                                 <figure class="image is-2by1">
-                                    <img src={require("../image/sacrifice.jpg").default} alt="慶典"/>
+                                    <img src={require("../image/index/sacrifice.jpg").default} alt="慶典"/>
                                     <div className="overlay">
                                         <div className="hover-text">慶典</div>
                                     </div>               

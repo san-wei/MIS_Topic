@@ -9,6 +9,16 @@ import Puyuma from './page/Puyuma';
 import Rukai from './page/Rukai';
 import Tsou from './page/Tsou';
 import Saisiyat from './page/Saisiyat';
+import Yami from './page/Yami';
+import Thao from './page/Yami';
+import Kavalan from './page/Yami';
+import Truku from './page/Yami';
+import Sakizaya from './page/Yami';
+import Seediq from './page/Yami';
+import Hlaalua from './page/Yami';
+import Kanakanavu from './page/Yami';
+
+
 
 const App = ()=> {
   return (
@@ -52,6 +62,38 @@ const App = ()=> {
         <Route path='/saisiyat' exact>
           <Saisiyat/>
         </Route>
+        {/*雅美族*/}
+        <Route path='/yami' exact>
+          <Yami/>
+        </Route> 
+        {/*邵族*/}
+        <Route path='/thao' exact>
+          <Thao/>
+        </Route>  
+        {/*噶瑪蘭族*/}
+        <Route path='/kavalan' exact>
+          <Kavalan/>
+        </Route>
+        {/*太魯閣族*/}
+        <Route path='/truku' exact>
+          <Truku/>
+        </Route>
+        {/*撒奇萊雅族*/}
+        <Route path='/sakizaya' exact>
+          <Sakizaya/>
+        </Route>
+        {/*賽德克族*/}
+        <Route path='/seediq' exact>
+          <Seediq/>
+        </Route>
+        {/*拉阿魯哇族*/}
+        <Route path='/hlaalua' exact>
+          <Hlaalua/>
+        </Route> 
+        {/*卡那卡那富族*/}
+        <Route path='/kanakanavu' exact>
+          <Kanakanavu/>
+        </Route>                                                               
       </Switch>
   </BrowserRouter>
   );

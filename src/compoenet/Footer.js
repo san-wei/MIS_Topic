@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../image/logo-bg.png';
+import Logo from '../image/footer/logo-bg.png';
 
 const Footer = ()=>{
     return (
@@ -16,19 +16,19 @@ const Footer = ()=>{
                             </figure>
                             <p className="has-text-white ">Copyright © 2021 山之子民</p>                            
                         </div>
-                        <div className="column has-text-centered is-half">
+                        <div className="column  is-half">
                             <div className="columns">
                                 <div className="column">
-                                    <p className="is-size-3 has-text-white">ICON </p>
-                                    <p className="pt-2">
-                                        <a className="has-text-white has-background-success	px-1 py-1" href="https://react-icons.github.io/react-icons/">React icon</a> 
-                                    </p>
+                                    <figure className=" image is-128x128 " >
+                                        <img src={require("../image/footer/font.png").default} alt="designevo" />
+                                    </figure> 
+                                    <p className="is-size-4 has-text-white">ICON </p>
                                 </div>
                                 <div className="column">
-                                    <p className="is-size-3 has-text-white">LOGO</p>
-                                    <p className="pt-2">
-                                        <a className="has-text-white has-background-success	px-1 py-1" href="https://www.designevo.com/tw/">designevo</a> 
-                                    </p>  
+                                    <figure className=" image is-128x128 " >
+                                        <img src={require("../image/footer/designevo.jpg").default} alt="designevo" />
+                                    </figure> 
+                                    <p className="is-size-4 has-text-white ">LOGO</p>
                                 </div>
                             </div> 
                         </div>
