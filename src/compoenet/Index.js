@@ -135,6 +135,9 @@ const Index = ()=>{
                 </div> 
             </div>                   
             <div className="section ">
+                <div className=" has-text-centered title ">
+                    原住民文化
+                </div>
                 <div className="tile is-ancestor">
                     <div className="tile">
                         <div className="tile is-8 is-parent">
@@ -152,7 +155,7 @@ const Index = ()=>{
                                 <figure class="image is-1by1">
                                     <img src={require("../image/index/arms.jpg").default} alt="武器"/>
                                     <div className="overlay">
-                                        <div className="hover-text">獵刀</div>
+                                        <div className="hover-text">武器</div>
                                     </div>
                                 </figure>
                             </div>
@@ -163,27 +166,42 @@ const Index = ()=>{
                     <div className="tile">
                         <div className="tile is-4 is-parent ">
                             <div className="tile is-child box">
-                                <figure class="image ">
+                                <figure class="image 64x64">
                                     <img src={require("../image/index/house.jpg").default} alt="傳統建築"/>
                                     <div className="overlay">
                                         <div className="hover-text">建築-茅草屋</div>
                                     </div>               
                                 </figure>
+                                <figure class="image 64x64">
+                                    <img src={require("../image/index/home.jpg").default} alt="傳統建築"/>
+                                    <div className="overlay">
+                                        <div className="hover-text">建築-石板屋</div>
+                                    </div>               
+                                </figure>
                             </div>
                         </div>
                         <div className="tile  is-parent is-4">
-                            <div className="tile is-child box has-background-black ">
-                                <p className=" has-text-centered is-size-2 is-family-monospace has-text-white lineText">
-                                    原住民生活
-                                </p>
+                            <div className="tile is-child  ">
+                            <figure class="image ">
+                                    <img src={require("../image/index/clothing.jpg").default} alt="傳統服裝"/>
+                                    <div className="overlay">
+                                        <div className="hover-text">各族服裝</div>
+                                    </div>               
+                                </figure>
                             </div>
                         </div>
                         <div className="tile  is-parent is-4">
                             <div className="tile is-child box">
                                 <figure class="image ">
-                                    <img src={require("../image/index/home.jpg").default} alt="傳統建築"/>
+                                    <img src={require("../image/index/song.jpg").default} alt="歌曲"/>
                                     <div className="overlay">
-                                        <div className="hover-text">建築-石板屋</div>
+                                        <div className="hover-text">歌曲</div>
+                                    </div>               
+                                </figure>
+                                <figure class="image ">
+                                    <img src={require("../image/index/song-2.jpg").default} alt="歌曲"/>
+                                    <div className="overlay">
+                                        <div className="hover-text">歌曲</div>
                                     </div>               
                                 </figure>
                             </div>

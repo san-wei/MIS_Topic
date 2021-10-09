@@ -1,24 +1,24 @@
-/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { Link } from "react-router-dom";
-import "../navbar/Navbar";
+
 
 const Header = () => {
+    const [isActive, setisActive] = React.useState(false);  
     return(
-        <div className="container is-max-desktop">
+        <div className="container is-max-widescreen">
             <nav className="navbar pt-5" role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <Link to="/home">
                         <img src={require("../image/header/logo.jpg").default} alt="logo" />
                     </Link>
-                    <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <a  onClick={() => {setisActive(!isActive);}} role="button" className={`navbar-burger burger ${isActive ? "is-active" : ""}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                     </a>
                 </div>
-                <div className="navbar-menu is-justify-content-center">
+                <div className={`navbar-menu ${isActive ? "is-active" : ""}`} id="navbarBasicExample">
                     <div className="navbar-end ">
                         <div className="navbar-item has-dropdown is-hoverable"  >
                             <a className="navbar-link">北部</a>
@@ -41,7 +41,7 @@ const Header = () => {
                                     <Link to="/thao">邵族</Link>
                                 </a>
                                 <a className="navbar-item" >
-                                    <Link to="/rukai">鄒族</Link>
+                                    <Link to="/tsou">鄒族</Link>
                                 </a>
                                 <a className="navbar-item" >
                                     <Link to="/seediq">賽德克族</Link>

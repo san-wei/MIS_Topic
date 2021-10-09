@@ -9333,6 +9333,11 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
+"react-hooks@^1.0.1":
+  "integrity" "sha1-5iGXw4zY0HAwYPeRI09/RpiqfEQ="
+  "resolved" "https://registry.npmjs.org/react-hooks/-/react-hooks-1.0.1.tgz"
+  "version" "1.0.1"
+
 "react-icons@^4.2.0":
   "integrity" "sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ=="
   "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.2.0.tgz"

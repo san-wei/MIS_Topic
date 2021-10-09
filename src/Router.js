@@ -10,13 +10,13 @@ import Rukai from './page/Rukai';
 import Tsou from './page/Tsou';
 import Saisiyat from './page/Saisiyat';
 import Yami from './page/Yami';
-import Thao from './page/Yami';
-import Kavalan from './page/Yami';
-import Truku from './page/Yami';
-import Sakizaya from './page/Yami';
-import Seediq from './page/Yami';
-import Hlaalua from './page/Yami';
-import Kanakanavu from './page/Yami';
+import Thao from './page/Thao';
+import Kavalan from './page/Kavalan';
+import Truku from './page/Truku';
+import Sakizaya from './page/Sakizaya';
+import Seediq from './page/Seediq';
+import Hlaalua from './page/Hlaalua';
+import Kanakanavu from './page/Kanakanavu';
 
 
 
