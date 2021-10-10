@@ -9,23 +9,22 @@ const Kanakanavu = () => {
         <div>
             <Header/>
                 <div className="container">
-                    <div className="section ">
-                        <div className="title has-text-centered">
-                            卡那卡那富族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Kanakanavu/Kanakanavu.jpg').default } alt="Kanakanavu"></img>
+                    </figure>
+                    <div className="section "> 
+                        <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Kanakanavu/Kanakanavu.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className="is-256x256 image-center " src={require('../image/page-image/Kanakanavu/icon.png').default }alt="卡那卡那富族圖騰"></img>
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 卡那卡那富族、拉阿魯哇族與嘉義縣的阿里山鄉、南投縣信義鄉久美社區的鄒族人，有很長的一段時間被統稱為「鄒族」，之後因語言差異甚大，完全無法以族語溝通，且三個族群各自有自己的歷史想像、起源傳說、祭典儀式及傳統的社會結構，經卡、拉兩族的申請「正名」，政府於103 年6 月26 日以正式的儀式宣布，認定各為獨立的族群。拉阿魯哇族為第15 族，卡那卡那富族為第16 族。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -52,20 +51,20 @@ const Kanakanavu = () => {
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Kanakanavu/rice.png').default }alt="播種祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">米貢祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Kanakanavu/river.png').default }alt="播種祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">河祭</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

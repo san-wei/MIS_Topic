@@ -9,24 +9,24 @@ const Rukai = () =>{
         <div>
             <Header/>
                 <div className="container">
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Rukai/Rukai.jpg').default } alt="Rukai"></img>
+                    </figure>
                     <div className="section ">
-                        <div className="title has-text-centered">
-                            魯凱族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                            
+                        <hr className="line"></hr>                            
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Rukai/Rukai.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className="is-256x256 image-center " src={require('../image/page-image/Rukai/icon.png').default }alt="魯凱族圖騰"></img>
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 魯凱族社會的特色為任務分工縝密的階級制度，融入婚姻、政治、宗教、祭祀與藝術各領域。以百合花為「魯凱族族花」，文化核心價值以百合花的配飾權最富特色，具有表彰聖潔、膽識、勇氣與尊榮的意義，經濟生活以小米種植為主體，小米收穫祭為最重要的祭典。</p>   
                                 <p className="subtitle has-text-justified ">士族階級的傳承受到長男繼嗣制度影響，只有長子能夠繼承為士族階級，其餘為平民。平民在進行各項工作前，像是砍木材、結婚、過路、釀酒等，都需要支付部分稅收給頭目。而平民在進行特定儀式與繳交特定稅賦後，也能夠獲得特殊權利，像是身上刺紋圖案使用、百合花裝飾權、服裝圖案裝飾使用及部分人名使用等權利。</p>
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns ">
@@ -48,33 +48,27 @@ const Rukai = () =>{
                         <div className=" has-text-centered title">祖靈慶典</div>
                         <hr className="line"></hr>
                         <div className="columns">
-                            <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                            <div className="column ">
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Rukai/year.png').default }alt="豐年祭-盪鞦韆"></img>
                                 </figure>
-                                <div className="subtitle has-text-centered">盪鞦韆</div>
+                                <div className="subtitle has-text-centered"> 豐年祭-盪鞦韆</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
-                                </figure>
-                                <div className="subtitle has-text-centered"> 小米收穫祭</div>
-                            </div>
-                            <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Rukai/blackrice.png').default }alt="黑米祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered"> 黑米祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 ">
+                                    <img className="image-center" src={require('../image/page-image/Rukai/spirits.png').default }alt="祖靈祭"></img>
                                 </figure>
-                                <div className="subtitle has-text-centered"> 萬山祖靈祭</div>
+                                <div className="subtitle has-text-centered"> 祖靈祭</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

@@ -9,23 +9,22 @@ const Thao = () => {
         <div>
             <Header/>
                 <div className="container">
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Thao/Thao.jpg').default } alt="Thao"></img>
+                    </figure>
                     <div className="section ">
-                        <div className="title has-text-centered">
-                            邵族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                        <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Thao/Thao.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className="is-256x256 image-center " src={require('../image/page-image/Thao/icon.png').default }alt="邵族圖騰"></img>
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 邵族主要居住在南投縣魚池鄉伊達邵部落和水里鄉大坪林聚落，其中伊達邵部落至今仍然嚴謹地遵循傳統祖靈信仰，傳統祖靈信仰以ulalaluan（祖靈籃）為供奉對象，具體象徵祖靈之存在，並且供奉於各家戶內。邵族的傳統祭祀體系主要分為農曆3 月的播種祭、農曆7 月的狩獵祭及農曆8 月的祖靈祭等重要祭儀。農耕祭儀反應出早期農業生活的節令和族人之生活型態；狩獵祭時，族人會以白鰻造型的麻糬做為祭品，體現出重視狩獵、漁獵的生活文化；一年之中又以農曆8 月份的祖靈祭最為熱鬧莊嚴。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -49,26 +48,32 @@ const Thao = () => {
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image  is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Thao/Byman.png').default }alt="拜鰻祭"></img>
                                 </figure>
-                                <div className="subtitle has-text-centered">狩獵祭、拜鰻祭</div>
+                                <div className="subtitle has-text-centered">拜鰻祭</div>
+                            </div>
+                            <div className="column">
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Thao/hunting.png').default }alt="狩獵祭"></img>
+                                </figure>
+                                <div className="subtitle has-text-centered">狩獵祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image  is-3by2">
+                                    <img className="image-center" src={require('../image/page-image/Thao/spirits.png').default }alt="祖靈祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">祖靈祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image  is-3by2">
+                                    <img className="image-center" src={require('../image/page-image/Thao/sowing.png').default }alt="播種祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">播種祭</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

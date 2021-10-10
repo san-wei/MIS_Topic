@@ -9,23 +9,22 @@ const Paiwan = () => {
         <div>
             <Header/>
                 <div className="container">
-                    <div className="section ">
-                        <div className="title has-text-centered">
-                            排灣族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Paiwan/Paiwan.jpg').default } alt="Paiwan"></img>
+                    </figure>
+                    <div className="section "> 
+                        <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
-                            <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Paiwan/Paiwan.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                            <div className="column ">
+                                <img className="is-256x256 image-center " src={require('../image/page-image/Paiwan/icon.png').default }alt=" 排灣族圖騰"></img>                            
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p> 
                                 <p className="subtitle has-text-justified "> 排灣族文化中以家名、家族的觀念與嚴謹的階級體系，貫穿社會中政治、婚姻、宗教與藝術各層面。排灣族人在小米收成後舉行「小米收穫祭」。另外，布曹爾群每五年辦理「五年祭」，迎請來探視子孫的祖靈，又稱為「人神盟約祭」。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -51,20 +50,20 @@ const Paiwan = () => {
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Paiwan/rice.png').default }alt="小米收穫祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">小米收穫祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image  is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Paiwan/year.png').default }alt="五年祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">五年祭</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

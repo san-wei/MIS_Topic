@@ -8,23 +8,22 @@ const Bunun = () => {
         <div>
             <Header/>
                 <div className="container">
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Bunun/Bunun.jpg').default } alt="Bunun"></img>
+                    </figure>
                     <div className="section ">
-                        <div className="title has-text-centered">
-                            布農族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                        <hr className="line"></hr>                         
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Bunun/Bunun.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className="is-256x256 image-center" src={require('../image/page-image/Bunun/icon.png').default }alt="布農族圖騰"></img>                               
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 布農族部落分布在海拔500 至1,500 公尺中央山脈兩側，是原住民族中分布海拔最高的民族，家庭以父系大家庭為基礎，因歷史遷移而慢慢拓展，分布範圍相當遼闊。布農族有精靈（hanitu）的觀念，相信個人能力、疾病與災禍，都跟精靈hanitu 有關係；祭典以射耳祭（malahodaigian）最具代表性，農業祭儀中的「祈禱小米豐收歌」（pasibutbut）音樂造詣享譽國際。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -59,20 +58,20 @@ const Bunun = () => {
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Bunun/rice.jpg').default }alt="小米播種祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">小米播種祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Bunun/ear.png').default }alt="射耳祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">射耳祭</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

@@ -9,23 +9,22 @@ const Saisiyat = () =>{
         <div>
             <Header/>
                 <div className="container">
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Saisiyat/Saisiyat.jpg').default } alt="Saisiyat"></img>
+                    </figure>
                     <div className="section ">
-                        <div className="title has-text-centered">
-                            賽夏族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                        <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Saisiyat/Saisiyat.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className=" image-center is-256x256" src={require('../image/page-image/Saisiyat/icon.png').default }alt="賽夏族圖騰"></img>                              
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 賽夏族的社會以氏族為基礎，各姓氏從清領時代開始就有不同漢姓，並遵守社會與婚姻規範。賽夏族的信仰與祭典中，以祖靈與矮靈信仰為主，以巴斯達隘矮靈祭典最具知名度。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -51,20 +50,26 @@ const Saisiyat = () =>{
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center " src={require('../image/page-image/Saisiyat/dwarf.png').default }alt="矮靈祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">巴斯達隘(矮靈祭)</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center " src={require('../image/page-image/Saisiyat/spirits.png').default }alt="祖靈祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">祖靈祭</div>
                             </div>
+                            <div className="column ">
+                                <figure className="image is-3by2">
+                                    <img className="image-center " src={require('../image/page-image/Saisiyat/sky.png').default }alt="祖靈祭"></img>
+                                </figure>
+                                <div className="subtitle has-text-centered">祈天祭</div>
+                            </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

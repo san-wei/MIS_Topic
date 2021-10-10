@@ -9,23 +9,22 @@ const Sakizaya = () => {
         <div>
             <Header/>
                 <div className="container">
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Sakizaya/Sakizaya.jpg').default } alt="Sakizaya"></img>
+                    </figure>
                     <div className="section ">
-                        <div className="title has-text-centered">
-                            撒奇萊雅族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                        <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Sakizaya/Sakizaya.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className="is-256x256 image-center " src={require('../image/page-image/Sakizaya/icon.png').default }alt="撒奇萊雅族圖騰"></img>
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 撒奇萊雅族的民族歷史與文化當中，以清光緒4 年（1878）年達固部灣事件（加禮宛事件）的影響最大，在民族服裝色彩與火神祭典當中，除了有弔念祖先與歷史事件的意義外，也再次凝聚族人的民族認同。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -49,20 +48,20 @@ const Sakizaya = () => {
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Sakizaya/year.png').default }alt="豐年祭"></img>
                                 </figure>
-                                <div className="subtitle has-text-centered">農耕祭儀</div>
+                                <div className="subtitle has-text-centered">豐年祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Sakizaya/fire.png').default }alt="火神祭"></img>
                                 </figure>
-                                <div className="subtitle has-text-centered">火神祭典</div>
+                                <div className="subtitle has-text-centered">火神祭</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

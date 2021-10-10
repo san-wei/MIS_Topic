@@ -9,23 +9,22 @@ const Kavalan = () => {
         <div>
             <Header/>
                 <div className="container">
-                    <div className="section ">
-                        <div className="title has-text-centered">
-                            噶瑪蘭族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Kavalan/Kavalan.jpg').default } alt="Kavalan"></img>
+                    </figure>
+                    <div className="section ">     
+                        <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Kavalan/Kavalan.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className="is-256x256 image-center " src={require('../image/page-image/Kavalan/icon.png').default }alt="噶瑪蘭族圖騰"></img>
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 世居宜蘭千百年的噶瑪蘭族擁有蘭陽平原土地的主權，自由自在的群居靠近河流與海邊的土地上，噶瑪蘭族人濱海而居，早期住屋為高架的干欄建築，具有古東南亞文化的特徵。噶瑪蘭族人透過航海進行交換貿易，十九世紀末期受「加禮宛戰役」影響，族人隱匿於阿美部落超過一世紀。噶瑪蘭族族人近年發起民族正名運動，於中華民國91 年（2002）公告認定為臺灣原住民族之一，稱為噶瑪蘭族。工藝方面，噶瑪蘭族目前仍保有編織香蕉絲的技術，非常具有特色。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -57,20 +56,20 @@ const Kavalan = () => {
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image  is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Kavalan/river.png').default }alt="播種祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">海祭</div>
                             </div>
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image  is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Kavalan/year.png').default }alt="播種祭"></img>
                                 </figure>
-                                <div className="subtitle has-text-centered">豐年祭典</div>
+                                <div className="subtitle has-text-centered">歲時祭儀</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

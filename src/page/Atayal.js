@@ -8,25 +8,24 @@ const Atayal = () => {
     return (
         <div>
             <Header/>
-                <div className="container">
+                <div className="container ">
+                    <figure className="image is-3by1 border">
+                        <img src={require('../image/page-image/Atayal/Atayal.jpg').default } alt="Atayal"></img>
+                    </figure> 
                     <div className="section ">
-                        <div className="title has-text-centered">
-                            泰雅族-簡介
-                        <hr className="line"></hr>
-                        </div>                           
+                        <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
-                            <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Atayal/Atayal.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                            <div className="column ">
+                                <img className="image-center is-256x256"  src={require('../image/page-image/Atayal/icon.png').default }alt="泰雅族圖騰"></img>                                
                             </div>
                             <div className="column 	">
+                                <p className=" title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified ">泰雅族社會盛行織布與紋面文化，族人遵守祖先訓示gaga，以祖靈祭為最重要的祭儀活動。近年，因為原住民意識崛起、文化復振運動興起，與原來在民族分類上劃歸泰雅族的太魯閣族與賽德克族，分別在民國93 年（2004）與民國97 年（2008）成為各自獨立的民族。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
-                        <div className=" has-text-centered title">地理歷史</div>
+                    <div className="section has-background-white-bis">
+                        <div className=" has-text-centered title ">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
@@ -48,25 +47,25 @@ const Atayal = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section  ">
                         <div className=" has-text-centered title">祖靈慶典</div>
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center " src={require('../image/page-image/Atayal/rice.png').default }alt="播種祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">播種祭</div>
                             </div>
-                            <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                            <div className="column">
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center " src={require('../image/page-image/Atayal/spirits.png').default }alt="祖靈祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">祖靈祭</div>
                             </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">

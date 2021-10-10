@@ -9,23 +9,22 @@ const Truku = () => {
         <div>
             <Header/>
                 <div className="container">
+                    <figure className="image is-3by1">
+                        <img src={require('../image/page-image/Truku/Truku.jpg').default } alt="Truku"></img>
+                    </figure>
                     <div className="section ">
-                        <div className="title has-text-centered">
-                            太魯閣族-簡介
                         <hr className="line"></hr>
-                        </div>                           
                         <div className="columns is-align-items-center">
                             <div className="column">
-                                <figure className="image image-center " style={{width:"200px"}}>
-                                    <img src={require('../image/page-image/Truku/Truku.png').default }alt="泰雅族圖騰"></img>
-                                </figure>                                
+                                <img className="is-256x256 image-center " src={require('../image/page-image/Truku/icon.png').default }alt="太魯閣族圖騰"></img>
                             </div>
                             <div className="column 	">
+                                <p className="title has-text-centered">族群簡介</p>
                                 <p className="subtitle has-text-justified "> 太魯閣族人重視織布與紋面文化，信仰祖靈並遵守祖先訓示gaya，祖靈祭為重要祭儀。目前部落以花蓮縣的秀林、萬榮、卓溪三鄉鎮為主要居住地，以及吉安鄉慶豐、南華、福興三村，並於中華民國93 年（2004）公告認定為臺灣原住民族之一，稱為太魯閣族。</p>   
                             </div>
                         </div>
                     </div>
-                    <div className="section">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">地理歷史</div>
                         <hr className="line"></hr>
                         <div className="columns is-align-items-center">
@@ -49,14 +48,20 @@ const Truku = () => {
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column ">
-                                <figure class="image is-128x128 image-center">
-                                    <img src={require('../image/icon/Atayal.png').default }alt="播種祭"></img>
+                                <figure className="image  is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Truku/spirits.png').default }alt="祖靈祭"></img>
                                 </figure>
                                 <div className="subtitle has-text-centered">祖靈祭</div>
                             </div>
+                            <div className="column ">
+                                <figure className="image is-3by2 pic">
+                                    <img className="image-center" src={require('../image/page-image/Truku/ths.png').default }alt="感恩祭"></img>
+                                </figure>
+                                <div className="subtitle has-text-centered">感恩祭</div>
+                            </div>
                         </div>
                     </div>
-                    <div className="section ">
+                    <div className="section has-background-white-bis">
                         <div className=" has-text-centered title">社會組織</div>
                         <hr className="line"></hr>
                         <div className="columns ">
