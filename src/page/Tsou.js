@@ -30,17 +30,18 @@ const Tsou = () =>{
                         <div className="columns is-align-items-center">
                             <div className="column">
                                 <p className="subtitle has-text-justified">
-                                    賽夏族人（Saisiyat）在自稱時，使用saisiyat 來稱呼自己，後取其近音而寫為賽夏族。賽夏族的創生傳說中，認為先人在洪水時期時，倖存的兄妹成婚生下小孩，而後將小孩肉、骨、胃、腸分解後投入海中，各別成為各部落與民族的祖先。賽夏族分布在臺灣西北部，以鵝公髻山為界分屬於新竹縣與苗栗縣兩個行政區
+                                    鄒族人現今的居住分布以嘉義縣阿里山鄉一帶的山區為主，亦即鄒族以阿里山山區、曾文溪流域與濁水溪上游流域為中心，東方在中央山脈玉山山麓與布農族的勢力範圍接壤，西與嘉南平原的漢族為鄰，南方則與魯凱族比鄰。
+                                    鄒族人除了主要分布在阿里山一帶之外，另外還有少數聚落分布在高雄、南投二縣境內，與布農族人混居。阿里山鄉依部落區為分成北三村：來吉、拉拉屋雅、達邦村(包含兩個重要的部落達邦及特富野)；南四村：里佳村、山美村、新美村、茶山村。
                                 </p>
                             </div>
                             <div className="column">
-                                <div className="columns is-vcentered is-multiline">
+                                <div className="columns is-vcentered is-multiline ">
                                     <div className="column is-full">
-                                        <p className="subtitle has-text-justified">新竹縣境內的賽夏族</p>
-                                        <p className="subtitle has-text-justified">居住在五峰鄉上坪溪流域，部落在五峰鄉大隘村與花園村內，部落周圍有不少泰雅族部落，文化上也彼此影響。</p></div>
+                                        <p className="subtitle has-text-centered">北鄒</p>
+                                        <p className="subtitle has-text-centered">指的是阿里山曹亞族，（又分為Tapagu-Tufuja群和Lututu群)</p></div>
                                     <div className="column is-full">
-                                        <p className="subtitle has-text-justified">苗栗縣境內的賽夏族</p>
-                                        <p className="subtitle has-text-justified">居住在中港溪上游的南庄鄉東河、南河流域，以及後龍溪上游獅潭溪流域，部落集中在南庄鄉東河村、蓬萊村、南江村，以及獅潭鄉百壽村等村落內，周圍多為客家漢族社區，生活中吸收不少客族文化。</p></div>
+                                        <p className="subtitle has-text-centered">南鄒</p>
+                                        <p className="subtitle has-text-centered">指的是卡那布亞族及沙阿魯阿亞族</p></div>
                                 </div>                            
                             </div>
                         </div>
@@ -77,7 +78,7 @@ const Tsou = () =>{
                             </div>
                             <div className="column">
                                 <p className="subtitle has-text-centered"> 大社、小社</p>
-                                <p className="has-text-justified">賽夏族的部落由鄰近村落組成，部落領袖由部落中具有能力、溝通、公正、熱心等特質的族人擔任。部落內的公共事務，則由各氏族長老會議共同討論決定，之後交由部落領袖執行。</p>
+                                <p className="has-text-justified"> 鄒族是一個以大社認同為觀念的社會，由一個主要大社為中心，周圍由幾個分支的小社所分布圍繞，共同組成一個「大社」的觀念。大社是最早形成的聚居單位，因耕作關係逐漸在附近形成小社，但在政治、宗教、經濟等各方面仍以大社為核心。大社的政治中心為男子集會所「庫巴」，由部落首長家族管理。</p>
                             </div>
                             <div className="column">
                                 <p className="subtitle has-text-centered"> 會所</p>
