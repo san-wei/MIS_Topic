@@ -1,5 +1,6 @@
+/* eslint-disable react/jsx-no-undef */
 import React from 'react';
-import { BrowserRouter,Route,Switch,Redirect } from "react-router-dom";
+import { BrowserRouter,Route,Switch,Redirect, HashRouter } from "react-router-dom";
 import Atayal from './page/Atayal';
 import Home from './page/Home';
 import Pangcah from './page/Pangcah';
@@ -22,7 +23,7 @@ import Kanakanavu from './page/Kanakanavu';
 
 const App = ()=> {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/system'>
       <Switch>
         <Route path='/' exact>
           <Redirect to='/home'></Redirect>
@@ -95,7 +96,7 @@ const App = ()=> {
           <Kanakanavu/>
         </Route>                                                               
       </Switch>
-  </BrowserRouter>
+  </HashRouter>
   );
 }
 

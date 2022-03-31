@@ -23,3 +23,7 @@
 * 賽德克族      /Seediq
 * 拉阿魯哇族    /Hlaalua
 * 卡那卡那富族  /Kanakanavu
+
+## 
+路由改成HashRouter basename='/system'
+packjson 加在pravite下面"pagehome":"./"
