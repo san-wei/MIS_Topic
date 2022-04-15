@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 import React from 'react';
-import { BrowserRouter,Route,Switch,Redirect, HashRouter } from "react-router-dom";
+import { Route,Switch,Redirect, HashRouter } from "react-router-dom";
 import Atayal from './page/Atayal';
 import Home from './page/Home';
 import Pangcah from './page/Pangcah';

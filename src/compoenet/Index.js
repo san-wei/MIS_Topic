@@ -29,7 +29,7 @@ const Index = ()=>{
             </div>
             <div className="section has-text-centered has-background-white-bis ">
                 <div className="title pt-3">各族圖騰</div>
-                <div className="columns is-mobile ">
+                <div className="columns  ">
                     <div className="column ">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Atayal.png').default } alt="泰雅族" ></img>     
@@ -55,7 +55,7 @@ const Index = ()=>{
                         <p className="subtitle">布農族</p>
                     </div>
                 </div>
-                <div className="columns is-mobile">
+                <div className="columns ">
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Puyuma.png').default } alt="卑南族" ></img>
@@ -81,7 +81,7 @@ const Index = ()=>{
                         <p className="subtitle">賽夏族</p>
                     </div>
             </div>
-                <div className="columns is-mobile">
+                <div className="columns ">
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Yami.png').default } alt="雅美族" ></img>
@@ -107,7 +107,7 @@ const Index = ()=>{
                         <p className="subtitle">太魯閣族</p>
                     </div>
                 </div>
-                <div className="columns is-mobile">
+                <div className="columns ">
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Sakizaya.png').default } alt="撒奇萊雅族" ></img>
