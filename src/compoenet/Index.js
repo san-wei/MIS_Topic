@@ -2,6 +2,7 @@ import React from "react";
 import '../css/home.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const Index = ()=>{
     return (
@@ -34,25 +35,25 @@ const Index = ()=>{
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Atayal.png').default } alt="泰雅族" ></img>     
                         </figure>
-                        <p className="subtitle">泰雅族</p>
+                        <p className="subtitle atext"><Link to="/atayal">泰雅族</Link></p>
                     </div>
                     <div className="column">
                             <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Pangcah.png').default } alt="阿美族" ></img>
                         </figure>
-                        <p className="subtitle">阿美族</p>
+                        <p className="subtitle atext"><Link to="/pangcah">阿美族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Paiwan.png').default } alt="排灣族" ></img>
                         </figure>
-                        <p className="subtitle">排灣族</p>
+                        <p className="subtitle atext"><Link to="/paiwan">排灣族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Bunun.png').default } alt="布農族" ></img>
                         </figure> 
-                        <p className="subtitle">布農族</p>
+                        <p className="subtitle atext"><Link to="/bunun">布農族</Link></p>
                     </div>
                 </div>
                 <div className="columns ">
@@ -60,25 +61,25 @@ const Index = ()=>{
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Puyuma.png').default } alt="卑南族" ></img>
                         </figure>
-                        <p className="subtitle">卑南族</p>
+                        <p className="subtitle atext"><Link to="/puyuma">卑南族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Rukai.png').default } alt="魯凱族" ></img>
                         </figure>
-                        <p className="subtitle">魯凱族</p>
+                        <p className="subtitle atext"><Link to="/rukai">魯凱族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Tsou.png').default } alt="鄒族" ></img>
                         </figure>
-                        <p className="subtitle">鄒族</p>
+                        <p className="subtitle atext"><Link to="/tsou">鄒族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Saisiyat.png').default } alt="賽夏族" ></img>
                         </figure>
-                        <p className="subtitle">賽夏族</p>
+                        <p className="subtitle atext"><Link to="/saisiyat">賽夏族</Link></p>
                     </div>
             </div>
                 <div className="columns ">
@@ -86,25 +87,25 @@ const Index = ()=>{
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Yami.png').default } alt="雅美族" ></img>
                         </figure>
-                        <p className="subtitle">雅美族</p>
+                        <p className="subtitle atext"><Link to="/yami">雅美族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Thao.png').default } alt="邵族" ></img>
                         </figure>
-                        <p className="subtitle">邵族</p>
+                        <p className="subtitle atext"><Link to="/thao">邵族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Kavalan.png').default } alt="噶瑪蘭族" ></img>
                         </figure>     
-                        <p className="subtitle">噶瑪蘭族</p>
+                        <p className="subtitle atext"><Link to="/kavalan">噶瑪蘭族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Truku.png').default } alt="太魯閣族" ></img>
                         </figure>                                 
-                        <p className="subtitle">太魯閣族</p>
+                        <p className="subtitle atext"><Link to="/truku">太魯閣族</Link></p>
                     </div>
                 </div>
                 <div className="columns ">
@@ -112,25 +113,25 @@ const Index = ()=>{
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Sakizaya.png').default } alt="撒奇萊雅族" ></img>
                         </figure>
-                        <p className="subtitle">撒奇萊雅族</p>
+                        <p className="subtitle atext"><Link to="/sakizaya">撒奇萊雅族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Seediq.png').default } alt="賽德克族" ></img>
                         </figure>
-                        <p className="subtitle">賽德克族</p>
+                        <p className="subtitle atext"><Link to="/seediq">賽德克族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Hlaalua.png').default } alt="拉阿魯哇族" ></img>
                         </figure>                   
-                        <p className="subtitle">拉阿魯哇族</p>
+                        <p className="subtitle atext"><Link to="/hlaalua">拉阿魯哇族</Link></p>
                     </div>
                     <div className="column">
                         <figure class="image is-128x128 image-center">
                             <img src={require('../image/icon/Kanakanavu.png').default } alt="卡那卡那富族" ></img>
                         </figure>                        
-                        <p className="subtitle">卡那卡那富族</p>
+                        <p className="subtitle atext"><Link to="/kanakanavu">卡那卡那富族</Link></p>
                     </div>
                 </div> 
             </div>                   

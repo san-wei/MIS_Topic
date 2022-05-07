@@ -110,3 +110,15 @@
     transform:scale(1,1);transition: all 1s ease-out;
 }
 .pic>img:hover{transform:scale(1.2,1.2);}
+/*超連結文字反黑*/
+.atext>a{
+    color: black;
+}
+.atext>a:hover{
+    color:green;
+}
+/*背景圖片*/
+.background{
+    background-size: 20%;
+    background-attachment: fixed;
+}

@@ -3,16 +3,18 @@ import Header from "../compoenet/Header";
 import Footer from "../compoenet/Footer";
 import Scroll from "../compoenet/Scrooll";
 import '../css/home.css';
+import bg from "../image/bgimg/atay.png"
 
 const Atayal = () => {
     return (
         <div>
             <Header/>
-                <div className="container ">
+            <div style={{backgroundImage: `url(${bg})`}} className="background">
+                <div className="container " >
                     <figure className="image is-3by1 border">
                         <img src={require('../image/page-image/Atayal/Atayal.jpg').default } alt="Atayal"></img>
                     </figure> 
-                    <div className="section ">
+                    <div className="section has-background-light">
                         <hr className="line"></hr>                          
                         <div className="columns is-align-items-center">
                             <div className="column ">
@@ -47,20 +49,20 @@ const Atayal = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="section  ">
+                    <div className="section has-background-light">
                         <div className=" has-text-centered title">祖靈慶典</div>
                         <hr className="line"></hr>
                         <div className="columns">
                             <div className="column">
-                                <figure className="image is-3by2 pic">
-                                    <img className="image-center " src={require('../image/page-image/Atayal/rice.png').default }alt="播種祭"></img>
+                                <figure className="image is-16by9">
+                                    <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/iKe7eHvvcHA?list=PLnwIXirBmCW-7gTc9TICCMiOQEsW1LO5Q" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
                                 </figure>
                                 <div className="subtitle has-text-centered">播種祭</div>
                             </div>
                             <div className="column">
-                                <figure className="image is-3by2 pic">
-                                    <img className="image-center " src={require('../image/page-image/Atayal/spirits.png').default }alt="祖靈祭"></img>
-                                </figure>
+                            <figure class="image is-16by9">
+                                <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/1PaBLv4fSv0?list=PLnwIXirBmCW-7gTc9TICCMiOQEsW1LO5Q" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+                            </figure>
                                 <div className="subtitle has-text-centered">祖靈祭</div>
                             </div>
                         </div>
@@ -101,11 +103,59 @@ const Atayal = () => {
                             </div>
                         </div>
                     </div>
-                </div>   
+                    <div className="section has-background-light " style={{paddingBottom:"1px"}}>
+                        <div className=" has-text-centered title">相關連結</div>
+                        <hr className="line"></hr>
+                        <div className="columns">
+                            <div className="column">
+                                <div className="has-text-centered subtitle">
+                                    <p><a href="https://ticeda.moc.gov.tw/home/zh-tw/TayalShenhua">神話起源</a></p>
+                                </div>
+                            </div>
+                            <div className="column">
+                                <div className="has-text-centered subtitle">
+                                    <p><a href="https://tmrc.tiec.tp.edu.tw/HTML/RSR20081122145441Q2V/taiya/meanings-2.htm">紋面知多少</a></p>
+                                </div>
+                            </div>
+                            <div className="column">
+                            <div className="has-text-centered subtitle">
+                                    <p><a href="https://tmrc.tiec.tp.edu.tw/html/rsr20081122170026mps/cantdo.html">禁忌</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="columns">
+                            <div className="column">
+                                <div className="has-text-centered subtitle">
+                                    <p><a href="https://www.renai.gov.tw/pg.asp?theme=29&acts=3&pid=0&xid=456">歲時祭儀-時程</a></p>
+                                </div>
+                            </div>
+                            <div className="column">
+                                <div className="has-text-centered subtitle">
+                                    <p><a href="https://tmrc.tiec.tp.edu.tw/html/rsr20081122170026mps/hand.html">手工藝</a></p>
+                                </div>
+                            </div>
+                            <div className="column">
+                            <div className="has-text-centered subtitle">
+                                    <p><a href="https://tpiercenter.tp.edu.tw/clothings/linkdfbyiijk">服裝意義</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className=" has-text-centered title">紀錄片</div>
+                            <div className="columns">
+                                <div className="column">
+                                    <figure className="image is-16by9">
+                                        <iframe class="has-ratio" width="640" height="360" src="https://www.youtube.com/embed/K9T94yLBty0" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
             <Footer/>  
             <Scroll/>         
-        </div>
-    
+    </div>
     );
 }
 
